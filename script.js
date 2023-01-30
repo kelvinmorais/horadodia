@@ -60,7 +60,7 @@ function carregar(){
     if (hora >=6 && hora <=12){
         //Bom dia!
         img.src = 'img/cafe400px.png'
-        window.document.body.style.background = '#FAFAFA'
+        window.document.body.style.background = '#958C84'
         msg3.innerHTML = "Bom dia, tenha um bom café!"
     } else if(hora >12 && hora <=18){
        //Bom Dia!
