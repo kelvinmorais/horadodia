@@ -57,21 +57,26 @@ function carregar(){
     }
   
     
-    if (hora >=6 && hora <=12){
+    if (hora >=6 && hora <12){
         //Bom dia!
         img.src = 'img/cafe400px.png'
         window.document.body.style.background = '#958C84'
         msg3.innerHTML = "Bom dia, tenha um bom café!"
-    } else if(hora >12 && hora <=18){
+    } else if(hora >=12 && hora <=18){
        //Bom Dia!
         img.src = 'img/almoço2400px.png'
         window.document.body.style.background = '#A89C96'
         msg3.innerHTML = "Boa tarde, tenha um bom almoço!"
-    } else {
+    } else if (hora >=18 && hora <0){
         //Boa Noite!
         img.src = 'img/Hamburguer3400px.png'
         window.document.body.style.background = '#C26306'
         msg3.innerHTML = "Boa noite, tenha uma boa janta!"
+    } else if (hora >=18 && hora <0){
+        //Boa madrugada!
+        img.src = 'img/Hamburguer3400px.png'
+        //window.document.body.style.background = '#C26306'
+        msg3.innerHTML = "Boa noite, tenha bons sonhos!"
     }
     
     msg1.innerHTML = ` ${diasemn} - ${dia}/${mes+1}/${ano}`
