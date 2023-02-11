@@ -77,7 +77,7 @@ function carregar(){
         img.src = 'img/Hamburguer3400px.png'
         window.document.body.style.background = '#C26306'
         msg3.innerHTML = "Boa noite, tenha uma boa janta!"
-    } else if (hora >=20 || hora<5){
+    } else if (hora >=20 || hora < 6){
         //Bom sonhos!
         img.src = 'img/cafe400px.png'
         //window.document.body.style.background = '#C26306'
