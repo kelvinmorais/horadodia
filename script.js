@@ -77,13 +77,13 @@ function carregar(){
         img.src = 'img/Hamburguer3400px.png'
         window.document.body.style.background = '#C26306'
         msg3.innerHTML = "Boa noite, tenha uma boa janta!"
-    } else if (hora >=20 && hora <5){
+    } else if (hora >=20 || hora<5){
         //Bom sonhos!
-        img.src = 'img/Hamburguer3400px.png'
+        img.src = 'img/cafe400px.png'
         //window.document.body.style.background = '#C26306'
         msg3.innerHTML = "Boa noite, tenha bons sonhos!"
     }
     
     msg1.innerHTML = ` ${diasemn} - ${dia}/${mes+1}/${ano}`
     msg2.innerHTML =  `${hora}:${min}:${seg}`
-}  //*/
+}  
