@@ -72,12 +72,12 @@ function carregar(){
          img.src = 'img/panqueca400px.png'
          window.document.body.style.background = '#A89C96'
          msg3.innerHTML = "Boa tarde, tenha um bom lanche!"
-     } else if (hora >=18 && hora <0){
+     } else if (hora >=18 && hora <20){
         //Boa janta!
         img.src = 'img/Hamburguer3400px.png'
         window.document.body.style.background = '#C26306'
         msg3.innerHTML = "Boa noite, tenha uma boa janta!"
-    } else if (hora >=18 && hora <0){
+    } else if (hora >=20 && hora <5){
         //Bom sonhos!
         img.src = 'img/Hamburguer3400px.png'
         //window.document.body.style.background = '#C26306'
